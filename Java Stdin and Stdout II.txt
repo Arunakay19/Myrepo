@@ -1,0 +1,39 @@
+import java.util.Scanner;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int i = scan.nextInt();
+        double d = scan.nextDouble();
+        scan.nextLine();
+        String s = scan.nextLine();
+        // Write your code here.
+
+        System.out.println("String: "+s );
+        System.out.println("Double: " + d);
+        System.out.println("Int: " + i);
+        scan.close();
+    }
+}
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args)throws IOException {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+            BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+            int x= Integer.parseInt(br.readLine());
+            double d =Double.parseDouble(br.readLine());
+            String s = br.readLine();
+          
+            
+       System.out.println("String: "+s);
+       System.out.println("Double: "+d);
+      System.out.println("Int: "+x);
+      
+     
+    }
+}

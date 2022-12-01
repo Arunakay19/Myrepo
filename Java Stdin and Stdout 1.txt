@@ -1,0 +1,39 @@
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int a = scan.nextInt();
+        // Complete this line
+        int b = scan.nextInt();
+        // Complete this line
+        int c = scan.nextInt();
+
+        System.out.println(a);
+        // Complete this line
+        System.out.println(b);
+        // Complete this line
+        System.out.println(c);
+    }
+}
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args)throws IOException {
+       // /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your ////class should be named Solution. *
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int a= Integer.parseInt(br.readLine());
+        int b= Integer.parseInt(br.readLine());
+        int c= Integer.parseInt(br.readLine());
+      
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+        
+     
+    }
+}
